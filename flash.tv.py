@@ -31,7 +31,7 @@ st.title("📰 FLASH TV Yalan Haberler Menüsü")
 
 secim = st.radio(
     "Bir haber seçin:",
-    ["Haber 1", "Haber 2", "Haber 3", "Haber 4"]
+    ["Haber 1", "Haber 2", "Haber 3", "Haber 4", "Haber 5"]
 )
 
 if secim == "Haber 1":
@@ -54,5 +54,24 @@ elif secim == "Haber 4":
     st.write("KEFO Paşa romantik şarkısıyla Wanda Nara'yı etkiledi. Ayağını yalayıp evlilik teklif etti!")
     st.video("https://www.youtube.com/watch?v=CIEEYIn3xgE")
 
+elif secim == "Haber 5":
+    st.subheader("🔮 Akinatör ile Aşkotör AyakYalayanKefo Sokak'ta buluştu!")
+    st.write("""
+    Magazin ekibimiz yine sınırları zorladı!  
+    Yapay zekânın en karizmatik tahmincisi Akinatör ile gönüllerin romantik kahramanı Aşkotör, Ark Sokak'ta el ele yakalandı!
+
+    👀 Kamera kayıtlarında Aşkotör'ün “Aşk neydi?” sorusunu Akinatör'e sorduğu duyuldu...  
+    🤖 Akinatör ise cevabı “Bu kişi sen misin?” diyerek verdi. Ortalık resmen yıkıldı!
+
+    💥 Magazin ekibimiz olay yerinden canlı yayın yaptı. Kahkahalar ve gözyaşları bir arada...
+
+    🚨 Bu buluşma 2025’in en büyük yapay zeka flörtü olarak tarih kitaplarına girdi.
+    """)
+    st.video("https://www.youtube.com/watch?v=JZcYAEIi6dw")
+
 st.markdown("---")
 st.caption("📺 FLASH TV • Mizahın en absürt haliyle sizlerle!")
+
+
+
+
